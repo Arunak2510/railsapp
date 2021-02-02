@@ -1,0 +1,2 @@
+class Empolyee < ApplicationRecord
+end

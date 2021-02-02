@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @empolyee.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @empolyee.last_name %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @empolyee.age %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @empolyee.Gender %>
+</p>
+
+<p>
+  <strong>Designation:</strong>
+  <%= @empolyee.designation %>
+</p>
+
+<%= link_to 'Edit', edit_empolyee_path(@empolyee) %> |
+<%= link_to 'Back', empolyees_path %>
